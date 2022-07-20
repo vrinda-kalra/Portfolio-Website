@@ -1,0 +1,586 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+/* .......body.......... */
+.body{
+  /* background-image: url(images/brandi-redd-aJTiW00qqtI-unsplash.jpg); */
+  background-image:url(images/istockphoto-1204028008-170667a.jpg);
+  /* background-repeat:repeat; */
+  background-size:cover;
+  background-position: center ;
+} */
+
+
+/* ..........navbar........... */
+.header {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.header p {
+  font-size: 3rem;
+  font-family:'Times New Roman', Times, serif; 
+  margin-left: 1rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  text-decoration: underline;
+}
+.list {
+  z-index: 2;
+  display: flex;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  margin-left: 90rem;
+   margin-top: -40px;
+  
+  /* text-decoration: none; */
+  padding: 0.5rem;
+}
+.list li {
+  display: flex;
+  font-size: 4rem;
+  font-family:'Times New Roman', Times, serif; 
+  text-decoration: none;
+  margin: 1.5rem;
+  
+  /* padding:0.5rem */
+}
+.list li a{
+  text-decoration: none;
+  color:black ;
+  transition: all 0.3s ease;
+}
+
+.list li a:hover
+{
+  color:white;
+  background-color: black;
+  
+font-size: xx-large;
+}
+/* .......center................... */
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: linear-gradient( 
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(31, 214, 190, 1) 4%,
+    rgba(242, 242, 242, 1) 100%
+  );
+   */
+}
+.profile {
+  border-radius: 100%; 
+  box-shadow: 5px 5px;
+  margin-top: 10rem;
+  margin-left: 25rem;
+
+}
+.p1 {
+  font-size: 10rem;
+  font-family:'Satisfy', cursive; 
+  margin-left: 4rem;
+  color: black;
+  margin-top: 16rem;
+}
+.p2 {
+  font-size: 4rem;
+  /* font-family:'Satisfy', cursive;  */
+  font-family: 'Dancing Script', cursive;
+  /* font-family:'Times New Roman', Times, serif */ 
+  margin-left: 4rem;
+  color: black;
+}
+.button{
+    font-size: 2rem;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    font-family:'Oleo Script Swash Caps', cursive;;
+}
+.button:hover{
+  background-color: whitesmoke;
+  transition: all 0.9s ease-out;
+  
+  
+}
+.b1{
+  background-color:#EEA302;
+}
+
+
+.b2{
+  background-color: #ff3b25;
+}
+.b3{
+  background-color: #80d8da;
+}
+
+/* .......about me.......... */
+.section1{
+  display: flex;
+}
+.aboutme{
+  border: solid 1px black; 
+  box-shadow: 10px 10px 10px #888888;
+  height: 25rem;
+  width: 30rem;
+  margin-top: 3rem;
+  margin-left: 15rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  /* background-color: aqua;  */
+  
+
+}
+
+.p3{
+  font-size: 3rem;
+  text-align: center;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+}
+.p4{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+/* .......Skills................ */
+.skills{
+border: solid 1px black;
+box-shadow: 10px 10px 10px #888888;
+height: 25rem;
+width: 25rem;
+margin-top: 3rem;
+margin-left: 15rem;
+
+}
+.p5{
+  font-size:3rem;
+  text-align:center;
+  font-family: 'Lobster', cursive;
+  margin-top: 1rem;
+  text-decoration: underline;
+}
+.skill-list{
+    text-decoration: none;  
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+
+}
+.skill-list li{
+  /* font-size: 2rem; */
+  margin: 3rem;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+/* .......familar block........... */
+.familiar{
+  border: solid 1px black;
+height: 25rem;
+width: 30rem;
+margin-top: 3rem;
+margin-left: 15rem;
+box-shadow: 10px 10px 10px #888888;
+}
+.p6{
+  font-size:3rem;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 1rem;
+  text-decoration: underline;
+}
+
+.l1{
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  text-align: center;
+  margin: 3rem;
+}
+
+/* .....project....... */
+.project{
+  display: flex;
+  margin-left: 55rem;
+  margin-top: 10rem;
+
+}
+.p7{
+  font-size: 7rem;
+  /* font-family:'Satisfy', cursive;  */
+  font-family:'Times New Roman', Times, serif;
+  margin-right: 0.5rem;
+  padding: 0.6rem; 
+  
+}
+.projectdp
+{
+  width:6rem;
+  height:6rem;
+  margin-top: 1.3rem;
+  border: black;
+  border-radius: 1rem;
+}
+.section2{
+  display: flex;
+  margin-left:1rem;
+}
+.prj1
+{
+  border: solid 1px black; 
+  box-shadow: 10px 10px 10px #888888;
+  height: 26rem;
+  width:35rem;
+  margin-top: 3rem;
+  margin-left:10rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.p8{
+  font-size: 3rem;
+  text-align: center;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+}
+.p9{
+  font-size: 2rem;
+  /* text-align: center;  */
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+
+   font-family: 'Playfair Display', serif; 
+}
+.prj-list{
+  text-decoration: none;  
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+.prj-list li{
+  margin-left: 2rem;
+  /* text-align: center; */
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+
+/* ......contact....... */
+.contact{
+  display: flex;
+  margin-left: 55rem;
+  margin-top: 10rem;
+}
+.p10{
+  font-size: 6rem;
+  /* font-family:'Satisfy', cursive;  */
+  font-family:'Times New Roman', Times, serif;
+  margin-right: 0.5rem;
+  padding: 0.6rem; 
+}
+.contactdp
+{
+  width:6rem;
+  height:6rem;
+  margin-top: 1.3rem;
+  border: black;
+  border-radius: 1rem;
+
+}
+.section3{
+  display: flex;
+  margin-top:4rem;
+  margin-left: 15rem;
+}
+.contact1{
+  margin-right:10rem;
+
+}
+.p11{
+  font-size: xx-large;
+  font-weight: bold;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.social{
+  height: 8rem;
+  width: 8rem;
+  border-radius: 100%;
+}
+.contact2{
+  margin-left: 6rem;
+
+}
+.clink1{
+  text-decoration: none;
+}
+.p12{
+  font-size:xx-large;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contact3{
+  margin-left: 30rem;
+}
+.s1{
+  height: 10rem;
+  width: 10rem;
+}
+
+
+/* media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 420.98px)
+{
+  .header p{
+    font-size: 2rem;
+  }
+  .list{
+    margin-left: 40rem;
+  }
+  .list li {
+    font-size: 2rem;
+  };
+  .list li a:hover{
+    font-size: large;
+  }
+
+  /* .....main...... */
+  .p1{
+    font-size: small;
+    margin-left: auto;
+  margin-top: auto;
+  }
+  .p2{
+    font-size: small;
+    margin-left: auto;
+  }
+  .button{
+    font-size: small;
+    height: 100px;
+    width: 100px;
+    padding: 10%;
+  }
+  .aboutme{
+    margin-top: auto;
+    margin-left: auto;
+  }
+  .p3{
+    font-size: small;
+  }.p4{
+    font-size: small;
+  }
+  .skills{
+    margin-top: auto;
+    margin-left: auto;
+  }
+  .p5{
+    font-size: small;
+  }
+  .skill-list{
+    font-size: small;
+  }
+  .familiar{
+    margin-top: auto;
+    margin-left: auto;
+  }
+  .p6{
+    font-size: small;
+  }
+  .li{
+    font-size: small;
+    margin: 2rem;
+  }
+
+  /* .....project..... */
+  .project{
+    margin-left: 50rem;
+    margin-top: 5rem;
+  }
+  .p7{
+    font-size: small;
+  }
+  .projectdp{
+    width: 3rem;
+    height: 3rem;
+    margin-top: auto;
+  }
+  .prj1{
+    height: 20rem;
+    width: 30rem;
+  }
+  .p8{
+    font-size: small;
+  }
+  .p9{
+    font-size: small;
+  }
+  .prj-list{
+    font-size: small;
+  }
+  /* ......contact....... */
+  .contact{
+    margin-left: 50rem;
+    margin-top: 5rem;
+  }
+  .p10{
+    font-size: small;
+  }
+  .contactdp{
+    height: 3rem;
+    width: 3rem;
+  }
+  .p11{
+    font-size: small;
+  }
+  .social{
+    height: 4rem;
+    width: 4rem;
+  }
+  .p12{
+    font-size: small;
+  }
+  .s1{
+    height: 5rem;
+    width: 5rem;
+  }
+  }
+  /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 421px) and (max-width: 576.98px) 
+{
+  .header p{
+    font-size: 3rem;
+  }
+  .list{
+    margin-left: 40rem;
+  }
+  .list li {
+    font-size: 3rem;
+  };
+  .list li a:hover{
+    font-size: large;
+  }
+
+  /* .....main...... */
+  
+  .profile{
+    margin-left: 20rem;
+  }
+  .p1{
+    font-size: 6rem;
+    margin-left: auto;
+  margin-top: auto;
+  }
+  .p2{
+    font-size: 4rem;
+    margin-left: auto;
+  }
+  .button{
+    font-size: small;
+    height: 80px;
+    width: 80px;
+    padding: 10%;
+    position: relative;
+  }
+  .aboutme{
+    margin-top: 10rem;
+    margin-left: 10rem;
+  }
+  .p3{
+    font-size: medium;
+  }.p4{
+    font-size: small;
+  }
+  .skills{
+    margin-top: 10rem;
+    margin-left: 10rem;
+  }
+  .p5{
+    font-size: medium;
+  }
+  .skill-list{
+    font-size: medium;
+  }
+  .familiar{
+    margin-top: 10rem;
+    margin-left: 10rem;
+  }
+  .p6{
+    font-size: medium;
+  }
+  .li{
+    font-size: small;
+    margin: 2rem;
+  }
+
+  /* .....project..... */
+  .project{
+    margin-left: 50rem;
+    margin-top: 5rem;
+  }
+  .p7{
+    font-size: small;
+  }
+  .projectdp{
+    width: 3rem;
+    height: 3rem;
+    margin-top: auto;
+  }
+  .prj1{
+    height: 20rem;
+    width: 30rem;
+  }
+  .p8{
+    font-size: small;
+  }
+  .p9{
+    font-size: small;
+  }
+  .prj-list{
+    font-size: small;
+  }
+  /* ......contact....... */
+  .contact{
+    margin-left: 50rem;
+    margin-top: 5rem;
+  }
+  .p10{
+    font-size: small;
+  }
+  .contactdp{
+    height: 3rem;
+    width: 3rem;
+  }
+  .p11{
+    font-size: small;
+  }
+  .social{
+    height: 4rem;
+    width: 4rem;
+  }
+  .p12{
+    font-size: small;
+  }
+  .s1{
+    height: 5rem;
+    width: 5rem;
+  }
+
+}
+  
+
